@@ -12,5 +12,5 @@ paymentMode = "Credit Card" //Already declared
 
 // Undefined is a datatype is JS
 
-var if = 23; //Reserved keyword so its throwing error
+//var if = 23; //Reserved keyword so its throwing error
 // There are reserved keywords which cannot be used as the variable name
