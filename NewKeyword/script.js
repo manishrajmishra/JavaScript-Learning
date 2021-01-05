@@ -12,10 +12,14 @@ User.prototype.getFirstName = function(){
 
 var manish = new User("Manish", 3);
 manish.getCourseCount();
-manish.getFirstName();
+if(manish.hasOwnProperty("firstName")){
+    manish.getFirstName();
+}
 //console.log(manish);
 
 var avnish = new User("Avnish", 5);
 avnish.getCourseCount();
-avnish.getFirstName();
+if(avnish.hasOwnProperty("firstName")){
+    avnish.getFirstName();
+}
 //console.log(avnish);
