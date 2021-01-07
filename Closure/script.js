@@ -1,3 +1,4 @@
+//closure example
 function init(){
     var firstName = "Manish";
     console.log("I am Init");
@@ -12,7 +13,7 @@ var name = init();
 
 name();
 
-
+//closure example , also known as curring
 function doAddition(x){
     return function(y){
         return x + y;
