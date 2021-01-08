@@ -15,7 +15,7 @@ for(let value of myMap.values()){
     console.log(`Value is ${value}`);
 }
 
-for(let [key, value] myMap){
+for(let [key, value] of myMap){
     console.log(`Key is : ${key} and Value is ${value}`);
 }
 
